@@ -10,7 +10,7 @@ Created on Sun Jun  6 00:01:24 2021
 # Will McIntyre
 
 def inPhoneNumber(text):
-    if len(text) != 12:
+    if len(text) != 12: # If the number of characters is more than 12, return false
         return False
     for i in range (0, 3):
         if not text[i].isdecimal():
